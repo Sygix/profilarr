@@ -1,0 +1,17 @@
+name: Language - French
+description: "Prioritise les releases fran\xE7aises (VF, VFF, TRUEFRENCH), y compris\
+  \ celles mal tagg\xE9es par les indexers."
+tags: []
+conditions:
+- name: French in title
+  type: release_title
+  required: false
+  negate: false
+  pattern: Language - French
+- name: French in language
+  type: language
+  required: false
+  negate: false
+  language: french
+  exceptLanguage: false
+tests: []

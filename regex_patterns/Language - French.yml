@@ -1,0 +1,5 @@
+name: Language - French
+pattern: (FRENCH|VFF|VFQ|VFI|VF2|TRUEFRENCH)
+description: Detect French tags in names
+tags: []
+tests: []

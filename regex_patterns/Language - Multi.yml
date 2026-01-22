@@ -1,0 +1,5 @@
+name: Language - Multi
+pattern: (MULTI|MULTILINGUAL)
+description: ''
+tags: []
+tests: []

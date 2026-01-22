@@ -1,0 +1,17 @@
+name: Language - English
+description: "Fallback pour les releases uniquement en anglais lorsqu\u2019aucune\
+  \ version fran\xE7aise ou multi n\u2019est disponible."
+tags: []
+conditions:
+- name: Language in English
+  type: language
+  required: false
+  negate: false
+  language: english
+  exceptLanguage: false
+- name: Title contains English
+  type: release_title
+  required: false
+  negate: false
+  pattern: Language - English
+tests: []

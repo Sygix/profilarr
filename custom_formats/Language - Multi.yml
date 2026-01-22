@@ -1,0 +1,23 @@
+name: Language - Multi
+description: "Favorise les releases multi-audio (FR/EN) lorsque la version fran\xE7\
+  aise seule n\u2019est pas disponible."
+tags: []
+conditions:
+- name: Multi in title
+  type: release_title
+  required: false
+  negate: false
+  pattern: Language - Multi
+- name: French language
+  type: language
+  required: false
+  negate: false
+  language: french
+  exceptLanguage: false
+- name: English language
+  type: language
+  required: false
+  negate: false
+  language: english
+  exceptLanguage: false
+tests: []
